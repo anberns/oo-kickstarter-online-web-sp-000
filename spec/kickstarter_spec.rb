@@ -51,6 +51,7 @@ describe 'Backer - More Advanced #back_project' do
   end
 end
 
+
 describe 'Project - More Advanced #add_backer' do
   it 'also adds the project to the backer\'s backed_projects array' do
     ropes = Project.new("All The Ropes")
